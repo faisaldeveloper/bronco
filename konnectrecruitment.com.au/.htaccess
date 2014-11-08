@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+ErrorDocument 404 404.html
+
+RewriteRule ^([0-9A-Za-z]*)$ index.php?pagefrname=$1
+RewriteRule ^([0-9A-Za-z]*)-([0-9A-Za-z]*)-products$ index.php?nCategory=$1&PageType=$2
+RewriteRule ^([0-9A-Za-z]*)-([0-9A-Za-z]*)-([0-9A-Za-z]*)-details$ index.php?hdnProdId=$1&hdnCatId=$2&PageType=$3
+
+RewriteRule ^([0-9A-Za-z]*)-([0-9A-Za-z]*)-news$ index.php?NewsId=$1&PageType=$2
+RewriteRule ^([0-9A-Za-z]*)-([0-9A-Za-z]*)-s$ index.php?PageType=$2
+RewriteRule ^([0-9A-Za-z]*)-([0-9A-Za-z]*)-s-1$ index.php?PageType=$2&hdnSearch=1
+
+Options -Indexes

@@ -1,0 +1,84 @@
+body {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+.Heading {
+	font-family: Verdana;
+	font-size: 14px;
+	color: #000000;
+}
+.body_Bold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.body_red {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF0000;
+}
+.body_green {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #009900;
+}
+IMG {
+	BORDER-RIGHT: white 0px; BORDER-TOP: white 0px; BORDER-LEFT: white 0px; BORDER-BOTTOM: white 0px
+}
+.TabBorder {
+	border: 1px solid #CCCCCC;
+}
+.TextField {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	border: 1px solid #000000;
+}
+select {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+.Button{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 8pt;
+	COLOR: #003366;
+	FONT-FAMILY: Verdana;
+	BACKGROUND-COLOR: #33C5F4;
+	border: 1pt solid #003366;
+}
+.checkbox {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.TabHead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	BACKGROUND-COLOR: #999999;
+}
+
+.DarkRow{
+	BACKGROUND-COLOR: #CCCCCC;
+}
+.LightRow{
+	BACKGROUND-COLOR: #EEEEEE;
+}
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #999999;
+}
+ü
