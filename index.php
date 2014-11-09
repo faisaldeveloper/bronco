@@ -4,6 +4,9 @@
 $yii=dirname(__FILE__).'/../../yiiframework1.1.12/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
 
+
+//test comment
+
 // remove the following lines when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG',true);
 // specify how many levels of call stack should be shown in each log message
